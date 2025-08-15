@@ -1,0 +1,60 @@
+# === Visual Studio Artifacts ===
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.cache
+*.log
+
+# === Build Output ===
+bin/
+obj/
+[Bb]uild/
+*.dll
+*.exe
+*.pdb
+
+# === SQL Server Projects ===
+*.mdf
+*.ldf
+*.bak
+*.sqlproj.user
+*.dbmdl
+
+# === SSIS & ETL Artifacts ===
+*.dtsx
+*.dtproj.user
+*.ispac
+
+# === BBCRM SDK & Customization ===
+SDKOutput/
+CustomAssemblies/
+*.csproj.user
+
+# === Git & Repo Metadata ===
+*.orig
+*.rej
+*.swp
+*.lock
+
+# === Python Scripts (if used) ===
+__pycache__/
+*.pyc
+*.pyo
+*.env
+.env/
+
+# === Logs & Temp Files ===
+*.log
+*.tmp
+*.temp
+*.~*
+
+# === IDE-specific ===
+.idea/
+*.iml
+
+# === OS-specific ===
+Thumbs.db
+.DS_Store
+desktop.ini
